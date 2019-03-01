@@ -1,8 +1,8 @@
 .App {
   text-align: center;
-  min-height: 200vh;
+  min-height: 100vh;
   overflow: auto;
-  background-color: #282c34;
+  margin-bottom: 50px;
 }
 
 .App-logo {
@@ -40,5 +40,25 @@ a {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.counter {
+  .button {
+      margin: 15px;
+  }
+}
+
+.example-container {
+  margin: 0 auto;
+  width: 60%;
+
+  h1 {
+    color: #61dafb;
+  }
+
+  .editor {
+    width: 100% !important;
+    margin-top: 20px;
   }
 }
